@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root {
+  --primary-color: #004068;
+  --secondary-color: white;
+  --wheat-color: wheat;
+  --faint-gray: #d0d3d3;
+}
+html {
+  font-family: 'Comfortaa', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* helper css  */
+.container {
+  padding: 0rem 1rem;
+}
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+  font-size: 25px;
+}
+
+/* Navbar css */
+.nav {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 1rem;
+}
+
+.nav .nav-brand {
+  font-weight: bold;
+}
+
+.nav-brand a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.nav .nav-pills {
+  text-align: right;
+  margin: 0.6rem 1rem;
+}
+
+.nav .link {
+  color: var(--secondary-color);
+}
+
+.nav .link:hover {
+  color: var(--wheat-color);
+}
+
+.nav .link-active {
+  font-weight: bold;
+  color: var(--secondary-color) !important;
+}
+
+/* Main section  */
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight: 800;
+  margin: 40px;
+  color: var(--primary-color);
+}
+
+.main-section {
+  text-align: center;
+  padding: 2rem 2rem 3rem;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.heading {
+  font-weight: 600;
+  padding: 10px;
+}
+.ow {
+  background-color: var(--faint-gray);
+}
+.para {
+  margin: 2rem 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.btn {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.btn-primary {
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  font-weight: 800;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+/* footer section styling */
+footer {
+  background: var(--primary-color);
+  padding: 15px 23px;
+  color: var(--secondary-color);
+  text-align: center;
+  /* font-size: 16px; */
+}
+footer span a {
+  color: var(--wheat-color);
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}

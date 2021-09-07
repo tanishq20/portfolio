@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root {
+  --primary-color: #004068;
+  --secondary-color: white;
+  --wheat-color: wheat;
+  --faint-gray: #d0d3d3;
+}
+html {
+  font-family: 'Comfortaa', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* helper css  */
+.container {
+  padding: 0rem 1rem;
+}
+.fluid-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+  font-size: 25px;
+}
+
+/* Navbar css */
+.nav {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 1rem;
+}
+
+.nav .nav-brand {
+  font-weight: bold;
+}
+
+.nav-brand a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.nav .nav-pills {
+  text-align: right;
+  margin: 0.6rem 1rem;
+}
+
+.nav .link {
+  color: var(--secondary-color);
+}
+
+.nav .link:hover {
+  color: var(--wheat-color);
+}
+
+.nav .link-active {
+  font-weight: bold;
+  color: var(--secondary-color) !important;
+}
+
+/* Project Section */
+.header {
+  padding: 32px;
+}
+.header .header-primary {
+  text-align: center;
+  padding-top: 16px;
+  font-size: 38px;
+}
+.header .header-primary .header-secondary {
+  color: var(--primary-color);
+}
+
+.ol {
+  margin-block-start: 1rem;
+  margin-inline-start: 0.7rem;
+  margin-inline-end: 0.7rem;
+  padding-inline-start: 2rem;
+  padding-inline-end: 0.5rem;
+}
+.ol a {
+  font-size: 16px;
+}
+.ol li {
+  font-size: 20px;
+}
+
+.description {
+  margin-bottom: 2rem;
+}
+.description-padding p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 5px;
+  letter-spacing: 0.05rem;
+  line-height: 2.5rem;
+}
+.description-padding h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.description time {
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+}
+.description-para {
+  margin-bottom: 1rem;
+}
+
+.project-link {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 5px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  transition: all 0.2s ease-in;
+}
+.project-link:hover {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.code-link {
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border-style: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
+
+/* footer section styling */
+footer {
+  background: var(--primary-color);
+  padding: 15px 23px;
+  color: var(--secondary-color);
+  text-align: center;
+}
+footer span a {
+  color: var(--wheat-color);
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}

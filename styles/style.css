@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #004068;
+  --secondary-color: white;
+  --wheat-color: wheat;
+  --github-color: black;
+  --linkedin-color: #0976b4;
+  --twitter-color: #55acee;
+  --insta-color: crimson;
+  --faint-gray: #d0d3d3;
+}
+
+html {
+  font-family: 'Comfortaa', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Helper css */
+section {
+  padding: 50px 0;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.section .section-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+  font-size: 25px;
+}
+
+/* Navbar css */
+.nav {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 1rem;
+}
+
+.nav .nav-brand {
+  font-weight: bold;
+}
+
+.nav-brand a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.nav .nav-pills {
+  text-align: right;
+  margin: 0.6rem 1rem;
+}
+
+.nav .link {
+  color: var(--secondary-color);
+}
+
+.nav .link:hover {
+  color: var(--wheat-color);
+}
+
+.nav .link-active {
+  font-weight: bold;
+  color: var(--secondary-color) !important;
+}
+
+/* Hero section  */
+.text-name {
+  font-size: 55px;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+}
+
+.section .section-content .left {
+  width: 45%;
+}
+.section .section-content .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.section .section-content .right {
+  width: 55%;
+}
+.section .section-content .right .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.section .section-content .right .text span {
+  color: var(--wheat-color);
+}
+.section .section-content .right p {
+  text-align: justify;
+}
+
+/* social media css  */
+.social-buttons {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+.social-buttons .social-margin {
+  margin-right: 15px;
+}
+
+.social-buttons .social-icon {
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-radius: 138px;
+  border: 5px solid;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 1px;
+  padding-top: 11px;
+  transition: all 0.5s;
+}
+
+.social-buttons .social-icon.twitter {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-left: 2px;
+  border-color: var(--twitter-color);
+  background-color: var(--twitter-color);
+  color: var(--secondary-color);
+}
+.social-buttons .social-icon.twitter:hover {
+  background-color: var(--secondary-color);
+  color: var(--twitter-color);
+}
+.social-buttons .social-icon.linkedin {
+  font-size: 24px;
+  padding-top: 8px;
+  padding-left: 1px;
+  background-color: var(--linkedin-color);
+  color: var(--secondary-color);
+  border-color: var(--linkedin-color);
+}
+.social-buttons .social-icon.linkedin:hover {
+  background-color: var(--secondary-color);
+  color: var(--linkedin-color);
+}
+.social-buttons .social-icon.instagram {
+  font-size: 22px;
+  padding-top: 9px;
+  background-color: var(--insta-color);
+  color: var(--secondary-color);
+  border-color: var(--insta-color);
+}
+.social-buttons .social-icon.instagram:hover {
+  background-color: var(--secondary-color);
+  color: var(--insta-color);
+}
+.social-buttons .social-icon.github {
+  font-size: 22px;
+  padding-top: 9px;
+  background-color: var(--github-color);
+  color: var(--secondary-color);
+  border-color: var(--github-color);
+}
+.social-buttons .social-icon.github:hover {
+  background-color: var(--secondary-color);
+  color: var(--github-color);
+}
+
+/* Main section  */
+.main-section {
+  text-align: center;
+  padding: 2rem 2rem 3rem;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.heading {
+  font-weight: 600;
+  padding: 10px;
+}
+.ow {
+  background-color: var(--faint-gray);
+}
+.para {
+  margin: 2rem 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.btn {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.btn-primary {
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 1rem auto;
+  border-radius: 2rem;
+  font-weight: 800;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-secondary {
+  max-width: 140px;
+  margin: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+/* footer section styling */
+footer {
+  background: var(--primary-color);
+  padding: 15px 23px;
+  color: var(--secondary-color);
+  text-align: center;
+}
+footer span a {
+  color: var(--wheat-color);
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
+
+/* responsive media query start */
+@media (max-width: 1104px) {
+  .section .section-content .left img {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 991px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 947px) {
+  .max-width {
+    max-width: 930px;
+  }
+  .section .section-content .column {
+    width: 100%;
+  }
+  .section .section-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+  .section .section-content .right {
+    flex: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .section .section-content .right .text {
+    font-size: 19px;
+  }
+}
