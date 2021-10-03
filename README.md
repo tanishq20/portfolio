@@ -3,7 +3,7 @@
 <a href="https://linkedin.com/in/tanishqkumar" target="_blank"><img align="left" alt="Tanishq Kumar | LinkedIn" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />
 <a href="https://medium.com/@tanishqkumarsgr98" target="_blank"><img align="left" alt="Tanishq Kumar | Medium" width="22px" height="20px" src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" />
 <a href="https://twitter.com/tanishqkumar_20" target="_blank"><img align="left" alt="Tanishq Kumar | Twitter" width="22px" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" />
-<a href="https://instagram.com/tanishq_kumar20" target="_blank"><img align="left" alt="Tanishq Kumar | Instagram" width="22px" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" />
+<a href="https://instagram.com/tanishqkumar_20" target="_blank"><img align="left" alt="Tanishq Kumar | Instagram" width="22px" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" />
 
 <br />
 <br />
